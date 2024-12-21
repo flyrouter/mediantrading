@@ -1,0 +1,31 @@
+{
+  "name": "mediantrading",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "yarn@4.5.3",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.19.6",
+    "preact-iso": "^2.6.3",
+    "preact-render-to-string": "^6.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/plugin-transform-react-jsx-development": "^7.25.9",
+    "@preact/preset-vite": "^2.8.2",
+    "@types/babel__core": "^7",
+    "autoprefixer": "^10.4.19",
+    "babel-plugin-transform-hook-names": "^1.0.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-svgr": "^4.3.0",
+    "vitest": "^2.0.4"
+  }
+}
